@@ -10,6 +10,7 @@ To recreate the CTF environment with docker:
 ```
 module_names: {billboard, giftwrapper, giftwrapper2, mate1, mate2, shredder}
 
+The libc used in this docker environment is libc6_2.26-0ubuntu2_amd64.so (08d7e3b1a7a983fdb893b11943c9e3884e59e887)
 
 Connect to the service:
 ```
