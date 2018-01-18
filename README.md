@@ -19,6 +19,12 @@ nc localhost 12345
 For each challenge the files in the respective subdirectory were given.
 
 
+Use the following command to retrieve the libc used in the docker environment:
+```
+docker cp module_name:/lib/x86_64-linux-gnu/libc.so.6 .
+```
+
+
 ## Digital Billboard
 
 We bought a new Digital Billboard for CTF advertisement.
