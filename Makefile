@@ -56,7 +56,7 @@ mate/mate.so: mate.c
 
 
 .PHONY: mate2
-mate: mate2/server
+mate2: mate2/server
 
 mate2/server: server.c mate2/mate2.so
 	$(CC) -no-pie -DPORT=12345 -DLIB=\"./mate2.so\" -o ./mate2/server server.c $(CFLAGS) -ldl
