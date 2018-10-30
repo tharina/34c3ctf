@@ -8,7 +8,7 @@ To recreate the CTF environment with docker:
 ./docker_build.sh <module_name>
 ./docker_run.sh <module_name>
 ```
-module_names: {billboard, giftwrapper, giftwrapper2, mate1, mate2, shredder}
+module_names: {billboard, giftwrapper, giftwrapper2, mate, mate2, shredder}
 
 
 Connect to the service:
